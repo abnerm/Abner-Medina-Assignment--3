@@ -1,0 +1,210 @@
+@font-face {
+font-family: bebas;
+src: url(../fonts/bebas/BebasNeue-webfont.woff);
+}
+
+*, *:before, *:after  {
+	 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+html {
+	height: 100%;	
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	height: 100%;
+	-webkit-perspective: 2500px;
+	background: #302B2F;
+}
+
+h1 {
+	font-family: bebas, sans-serif;
+}
+
+h2 {
+	font-family: bebas, sans-serif;
+	text-transform: uppercase;
+	font-size: 32px;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 10px;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 300;		
+}
+p {
+	margin: 0;
+}
+header#name2 {
+	display: none;
+}
+
+header#name {
+	float: left;
+	padding: 35px;
+	width: 65%;	
+	background: url(../img/wild-sea.png);
+}
+header#name ul {
+	float: left;
+	margin: 25px 0;
+}
+header#name ul li {
+	text-align: left;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+header#name h1 {		
+	font-size: 160px;	
+	letter-spacing: 20px;
+	width: 100%;
+	line-height: 80%;
+	float: left;
+	color: #405952
+}
+header#name h3 {
+	margin-top: 30px;
+	float: left;
+	color: #FF974F
+}
+
+aside#skills {
+	float: left;
+	padding: 40px;
+	width: 35%;	
+	background: #EB5937;
+}
+aside#skills ul {
+	margin-bottom: 30px;
+	width: 60%;
+	float: right;
+	-webkit-transition: all .4s ease;
+}
+aside#skills ul li {
+	text-align: right;
+	margin: 5px 0;
+}
+
+section#work {
+	float: left;
+	background: #302B2F;
+	padding: 35px;
+	padding-bottom: 50px;
+	width: 65%;	
+}
+section#work h2 {
+	background: transparent;
+	text-align: left;
+	font-size: 60px;
+}
+
+section#work li {
+	background-position: center center;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+	border-radius: 1%;
+	text-align: center;
+	padding-top: 80px;
+	color: rgba(255,255,255,0);
+	-webkit-transition: all .5s ease;
+}
+
+
+#foreverbean {
+	background: rgba(0,0,0,1) url(../img/fbean.png);
+}
+#sushime {
+	background: rgba(0,0,0,1) url(../img/sushime.png);
+}
+#rabidaliens {
+	background: rgba(0,0,0,1) url(../img/rabaliens.png);
+}
+#bluewhale {
+	background: rgba(0,0,0,1) url(../img/bluwhale.png);
+}
+#resume {
+	background: rgba(0,0,0,1) url(../img/adm.png);
+}
+
+section#work li:hover {
+	background: rgba(0,0,0,.5);
+	color: rgba(255,255,255,1);
+}
+footer {
+	width: 65%;
+	height: 280px;
+	float: left;
+	padding: 35px 0;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1377px) {
+	aside#skills ul{
+		width: 100%;
+	}
+
+}
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+	aside#skills {
+		width: 100%;
+	}
+	aside#skills ul{
+		width: 100%;
+	}aside#skills ul li{text-align: center;}
+	header#name {display: none}
+	header#name2 {
+		display: block;
+		float: left;
+		padding: 35px;
+		width: 100%;	
+		background: url(../img/wild-sea.png);
+	}
+	header#name2 ul {
+		float: left;
+		margin: 25px 0;
+	}
+	header#name2 ul li {
+		text-align: left;
+		font-size: 22px;
+		text-transform: uppercase;
+	}
+
+	header#name2 h1 {		
+		font-size: 100px;	
+		letter-spacing: 20px;
+		width: 100%;
+		line-height: 80%;
+		float: left;
+		color: #405952
+	}
+	header#name2 h3 {
+		margin-top: 30px;
+		float: left;
+		color: #FF974F
+	}
+
+	section#work h2 {
+		text-align: center;
+	}
+
+	section#work {
+		width: 100%;
+	}
+
+	section#work ul li {
+		margin: 10px auto;
+		float: none;
+	}
+
+}
+
+
+
+
